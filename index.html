@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tana Kongsengwan · Full-Stack Developer</title>
+  <meta name="description" content="Tana Kongsengwan, full-stack developer in Bangkok, Thailand (.NET, Next.js, React, Node.js, SQL Server, PostgreSQL). Open to remote contract work." />
+  <meta property="og:title" content="Tana Kongsengwan · Full-Stack Developer" />
+  <meta property="og:description" content="Full-stack developer in Bangkok, Thailand. Open to remote contract work." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230f766e'/%3E%3Ctext x='16' y='21' font-family='Arial' font-size='14' font-weight='700' fill='white' text-anchor='middle'%3ETK%3C/text%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="#top" class="brand"><span class="logo">TK</span> Tana Kongsengwan</a>
+      <nav aria-label="Primary">
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero container">
+      <p class="eyebrow"><span class="dot" aria-hidden="true"></span> Open to remote contract work</p>
+      <h1>Tana Kongsengwan</h1>
+      <p class="role">Full-Stack Developer · Bangkok, Thailand</p>
+      <p class="lead">
+        I build web applications and APIs end to end, with modern .NET and ASP.NET Core on the
+        backend, Next.js and React on the frontend, and SQL Server or PostgreSQL underneath.
+      </p>
+      <div class="cta">
+        <a class="btn primary" href="mailto:tana074@gmail.com">Email me</a>
+        <a class="btn" href="https://github.com/tanakongsengwan" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </section>
+
+    <section id="skills" class="container section">
+      <h2>Skills</h2>
+      <div class="skill-groups">
+        <div class="skill-group">
+          <h3>Backend</h3>
+          <ul class="chips">
+            <li>.NET 8 / 10</li><li>ASP.NET Core</li><li>C#</li><li>Node.js</li><li>REST APIs</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Frontend</h3>
+          <ul class="chips">
+            <li>Next.js</li><li>React</li><li>TypeScript</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Data &amp; cloud</h3>
+          <ul class="chips">
+            <li>SQL Server</li><li>PostgreSQL</li><li>AWS (some experience)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="container section">
+      <h2>Domain experience</h2>
+      <p class="section-sub">Business systems I have built and worked on.</p>
+      <div class="cards">
+        <article class="card"><span class="icon" aria-hidden="true">💼</span><h3>Payroll</h3><p>Payroll processing systems.</p></article>
+        <article class="card"><span class="icon" aria-hidden="true">🕘</span><h3>HR time attendance</h3><p>Employee time and attendance tracking.</p></article>
+        <article class="card"><span class="icon" aria-hidden="true">💳</span><h3>Payment &amp; fingerprint payment</h3><p>Payment flows, including fingerprint-based payment.</p></article>
+        <article class="card"><span class="icon" aria-hidden="true">🍱</span><h3>Canteen systems</h3><p>Canteen and food-service systems.</p></article>
+        <article class="card"><span class="icon" aria-hidden="true">🏨</span><h3>Hotel systems</h3><p>Hotel management systems.</p></article>
+        <article class="card"><span class="icon" aria-hidden="true">🏋️</span><h3>Gym systems</h3><p>Gym and membership systems.</p></article>
+        <article class="card"><span class="icon" aria-hidden="true">🏫</span><h3>School management</h3><p>School management systems.</p></article>
+        <article class="card"><span class="icon" aria-hidden="true">🔌</span><h3>REST APIs</h3><p>APIs that connect apps, devices and services.</p></article>
+      </div>
+    </section>
+
+    <section id="projects" class="container section">
+      <h2>Featured project</h2>
+      <article class="project">
+        <div>
+          <p class="project-tag">Open source</p>
+          <h3>LendLoop</h3>
+          <p>
+            A neighbourhood tool-lending board. Neighbours list tools, request date ranges, approve loans
+            and mark them returned. Role-based access control is enforced on the backend, and n8n
+            automations talk to the backend over HMAC-signed webhooks.
+          </p>
+          <ul class="chips small">
+            <li>Next.js</li><li>TypeScript</li><li>Clerk</li><li>Convex</li><li>n8n</li><li>Tailwind CSS</li>
+          </ul>
+        </div>
+        <a class="btn primary" href="https://github.com/tanakongsengwan/lendloop" target="_blank" rel="noopener">View on GitHub →</a>
+      </article>
+    </section>
+
+    <section id="contact" class="container section contact">
+      <h2>Let's work together</h2>
+      <p>Available for remote contract work. The quickest way to reach me is email.</p>
+      <div class="contact-links">
+        <a class="contact-item" href="mailto:tana074@gmail.com"><span>Email</span>tana074@gmail.com</a>
+        <a class="contact-item" href="https://github.com/tanakongsengwan" target="_blank" rel="noopener"><span>GitHub</span>github.com/tanakongsengwan</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <p>© <span id="year">2026</span> Tana Kongsengwan · Bangkok, Thailand</p>
+  </footer>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
