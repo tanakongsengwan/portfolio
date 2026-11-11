@@ -102,6 +102,8 @@ h2 { font-size: 1.75rem; letter-spacing: -0.02em; margin: 0 0 .4rem; }
 .project p { color: var(--muted); margin: 0 0 1rem; }
 .project-tag { font-size: .8rem !important; font-weight: 600; text-transform: uppercase; letter-spacing: .08em; color: var(--accent) !important; margin: 0 !important; }
 
+.project-actions { display: flex; flex-wrap: wrap; gap: .75rem; align-items: center; }
+
 .contact p { color: var(--muted); margin: 0 0 1.5rem; }
 .contact-links { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
 .contact-item {
